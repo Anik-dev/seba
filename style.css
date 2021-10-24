@@ -20,14 +20,14 @@ nav ul {
 nav li {
     float: left;
     list-style: none;
-    margin: 14px 12px;
+    margin: 14px 11px;
     padding: 0px 10px;
 }
 nav a {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 nav i {
@@ -35,16 +35,53 @@ nav i {
     margin-left: 7px;
 }
 
+/* End of the nav section */
+/* Begining of the content section */
+
 #content {
     position: absolute;
     margin-top: 75px;
 }
 
 #logo {
-    width: 70%;
-    margin: 0 auto;
+    margin: 0px 80px 0px 120px;
     display: flex;
 }
-.contact {
-    
+#contact {
+    margin-left: 280px;
+    max-width: 800px;
+}
+.number {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+}
+.contact i {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #4fb5e6;
+    border-radius: 25px;
+    margin: 0px 5px 0px 0px;
+}
+.mb {
+    margin-top: 3px;
+}
+.appoinment {
+    margin: 12px 0px 0px 50px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.appoinment i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.number p, .appoinment p {
+    color: #4fb5e6;
+    font-family: sans-serif;
+}
+
+#images {
+    max-width: 80%;
+    margin: 0 auto;
 }
