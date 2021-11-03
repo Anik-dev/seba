@@ -81,7 +81,50 @@ nav i {
     font-family: sans-serif;
 }
 
-#images {
-    max-width: 80%;
+#top-img {
+    max-width: 85%;
     margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+}
+#whitelogo {
+    background-color: blue;
+    width: 480px;
+}
+#whitelogo img {
+    margin-top: 180px;
+    margin-left: 20px;
+}
+#whitelogo p {
+    padding-bottom: 30px;
+    padding-left: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+#info {
+    background-color: #4fb5e6;
+    width: 480px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding: 68px 10px;
+}
+#info span {
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+#info p {
+    font-size: 16px;
+}
+.one {
+    padding-top: 10px;
+}
+.two {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(224, 224, 200, .3);
+}
+#img2 img {
+    width: 405px;
+    height: 328px;
 }
