@@ -10,7 +10,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     background-color: #32609e;
-    position: fixed;
+    position: absolute;
     margin: auto;
 }
 nav ul {
@@ -83,9 +83,10 @@ nav i {
 
 #top-img {
     max-width: 85%;
-    margin: 0 auto;
+    margin: 0 100px;
     display: flex;
     padding-top: 30px;
+    position: absolute;
 }
 #whitelogo {
     background-color: blue;
@@ -126,5 +127,34 @@ nav i {
 }
 #img2 img {
     width: 405px;
-    height: 328px;
+    height: 359px;
+}
+
+#department {
+    display: flex;
+    margin-top: 280px;
+}
+.nav {
+    width: 29%;
+    background-color: #276ecc;
+    padding: 150px 0px 200px 100px;
+}
+.nav p {
+    width: 60px;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+.nav li {
+    list-style: none;
+    padding: 8px 0px;
+}
+.nav a {
+    text-decoration: none;
+    color: #4fb5e6;
+    font-size: 16px;
+}
+.detail {
+
 }
