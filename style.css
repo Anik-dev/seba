@@ -34,6 +34,10 @@ nav i {
     font-size: 11px;
     margin-left: 7px;
 }
+#drop {
+    display: none;
+    margin: 30px 10px;
+}
 
 /* End of the nav section */
 /* Begining of the content section */
@@ -156,5 +160,18 @@ nav i {
     font-size: 16px;
 }
 .detail {
+    width: 71%;
+}
+.detail ul {
+    padding: 180px 0 0 40px;
+}
+.detail li {
+    display: inline;
+    padding: 30px 30px;
+}
+.detail a {
+    cursor: auto;
+}
+.detail img {
 
 }
